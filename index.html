@@ -1,121 +1,159 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <!-- Mobile Responsiveness Tag -->
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <title>My Portfolio</title>
-
-        <!-- External CSS -->
-        <link rel="stylesheet" href="./index.css"/>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Zilla+Slab:wght@300;400;500;600&display=swap" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>My Portfolio</title>
+      <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&family=Ysabeau+Office:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     </head>
     <body>
-
-        <!-- landing page -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="#">Jona Lisa</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Tools</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
+<!-- Navbar -->
+      <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+          <a class="navbar-brand" href="#">J L</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#landing">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tools">Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </nav>
+      </section>
 
-        <section id="landing" class="bg-secondary px-5 py-5 text-white m-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 text-right">
-                        <h1>Jonalisa Butag</h1>
-                        <h3>Full Stack Web Developer</h3>
-                        <p>I am from the city of Pines and I am challenging myself to become a web developer.</p>
-                    </div>
-                    <div class="col-6">
-                        <img src="./images/happy-daydreamer-working-office.jpg" class="img-fluid">
-                    </div>
-                </div>
+<!-- Banner Section -->
+      <section id="landing">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="trainee">Jonalisa Butag</h1>
+              <h3>Full Stack Web Developer</h3>
+              <p>I am from the city of Pines and I am challenging myself to become a web developer. It can be challenging but with my willingness to learn I know I will definitely get there!</p>
+              <button type="button" class="btn btn-outline-info" href="#projects">My Projects</button>
             </div>
-        </section>
+            <div class="col-md-6 text-center">
+            <img src="images/desktopcomputer.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <img src="images/Lovepik_com-400233672-sea-wave.png" class="bottom-img">
+      </section>
 
- <!-- end of landing page -->
+  <!-- Projects Section -->
+      <section id="projects">
+        <div class="container text-center">
+          <h1 class="title">My Projects</h1>
+          <div class="row text-center">
+            <div class="col-md-4 projects">
+              <img src="images/project00.png" class="project-img">
+              <h4>HTML Attributes and Hyperlinks</h4>
+              <p>This is my first project using html hyperlinks. It was definitely a challenge for a newbie like me but I was happy with the results, plus I love those fish photos!</p>
+            </div>
+            <div class="col-md-4 projects">
+              <img src="images/project01.png" class="project-img">
+              <h4>Getting Started with Simple Website</h4>
+              <p>I thought building a website is far way ahead but willingness to learn helped us to be able to replicate a website this this. And of course we have one of the best mentors to help us!</p>
+            </div>
+            <div class="col-md-4 projects">
+              <img src="images/project3.png" class="project-img">
+              <h4>My Website</h4>
+              <p>Now it is time to apply the previous learnings that we had for the past 4 weeks. Building a website using bootstrap is actually not that hard.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <div class="bg-secondary text-light min-vh-100 p-5">
-                        
-                        <h2 class="mb-3">My Projects</h2>
+  <!-- Tools Section -->
+      <section id="tools">
+        <div class="container text-center">
+          <h1 class="title">Tools</h1>
+          <div class="d-flex justify-content-center pb-5">
+            <div class="d-flex flex-column flex-md-row justify-content-center">
+              <img width="150" src="images/logo-html5.png" />
+              <img width="150" src="images/logo-css3.png" />
+              <img width="150" src="images/logo-javascript.png" />
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-center">
+              <img width="150" src="images/logo-git.png" />
+              <img width="150" src="images/logo-sublime-text-3.png" />
+              <img width="150" src="images/logo-gitlab-ci-cd.png" />
+              <img width="150" src="images/logo-postman.png" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-                        <div class="d-lg-flex justify-content-center p-md-5">
-                            
-                            <!-- HTML Card -->
-                            <div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
-                              <div class="card-body">
-                                <img src="./images/project3.png">
-                                <h5 class="card-title">Website</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Simple Website</h6>
-                                <p class="card-text">Creating a simple website</p>
-                                <a href="#" class="card-link">Link to Project</a>
-                              </div>
-                            </div>
+  <!-- Contact Section -->
+      <section id="contact">
+            <div class="container text-center">
+              <h2 class="title">Contact</h2>
+              <div id="html" class="d-flex justify-content-center pb-5">
+                <div class="d-flex flex-column flex-md-row justify-content-center">
+                  <a href="https://www.facebook.com/jonalisab/"><img class="m-4" width="50" src="images/facebook.png" /></a>
+                  <a href="https://www.linkedin.com/in/jonalisa-butag-7b9163129/"><img class="m-4" width="50" src="images/linkedin.png" /></a>
+                  <a href="https://github.com/butagjonalisa"><img class="m-4" width="50" src="images/github.png" /></a>
+                  <a href="https://gitlab.com/butagjonalisa"><img class="m-4" width="50" src="images/gitlab.png" /></a>
+                </div>
+              </div>
+            </div>
 
-                            <!-- Bootstrap Card -->
-                            <div class="card bg-dark col-xl-4 mb-5 mb-xl-0" >
-                              <div class="card-body">
-                                <img src="./images/project3.png">
-                                <h5 class="card-title">Second Project</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Rapid Prototyping</h6>
-                                <p class="card-text">Creating a simple website</p>
-                                <a href="#" class="card-link">Link to Project</a>
-                              </div>
-                            </div>
+            <div id="contact-section" class="container-fluid bg-light p-3">
+                <h3 class="text-dark text-center">Message Me</h3>
 
-                            <!-- Node JS Card -->
-                            <div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
-                              <div class="card-body">
-                                <img src="./images/project3.png" class="card-img-top">
-                                <h5 class="card-title">Website</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Third Project</h6>
-                                <p class="card-text">Creating a simple website</p>
-                                <a href="#" class="card-link">Link to Project</a>
-                              </div>
-                            </div>
-                        </div>
+            <div class="row mt-5 justify-content-center">
+              <div class="column col-xs-12 col-md-8 col-xl-4">
+                <form id="form-col" class="bg-light p-5 text-center text-dark font-weight-bold">
+                  <div class="form-group">
+                      <label for="formName">Full Name</label>
+                      <input type="text" class="form-control" id="formName" placeholder="">
                     </div>
+                    <div class="form-group">
+                        <label for="formEmailAddress">Email Address</label>
+                        <input type="email" class="form-control" id="formEmailAddress" placeholder="">
+                      </div>
+                      <div class="form-group">
+                        <label for="formMessage">Message</label>
+                        <textarea class="form-control" id="formMessage" rows="8"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-block btn-outline-dark font-weight-bold">Send</button>
+                  </form>
+      </section>
 
-
-        <!-- footer -->
-        <footer>
-            <!-- Creates an inline element -->
-            <span>Terms of Service</span>
-            <span>|</span>
-            <span>Privacy Policy</span>
-            <span>|</span>
-            <span>&copy; 2022 Zuitt. All Rights Reserved</span>
+   <!-- footer -->
+      <section id="footer">        
+        <footer class="mt-5 p-3 text-white">
+            <p class="text-center mb-0">@ 2023 JONALISA BUTAG</p>
+            <p class="text-center">ALL RIGHTS RESERVED</p>
         </footer>
+      </section>
         <!-- end of footer -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    </body>
 
+    <!-- Smooth Scroll -->
+    <script src="smooth-scroll.js"></script>
+    <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 
     </body>
 </html>
